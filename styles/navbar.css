@@ -1,0 +1,106 @@
+.nav-container {
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--red);
+  padding: 10px;
+  
+}
+
+.logo { 
+  display: flex;
+  align-items: center;
+}
+
+.bgo-logo {
+  width: 60px;
+}
+
+
+.nav-links a {
+  color: white;
+  padding: 1.1rem;
+  transition: all .2s;
+}
+
+.nav-links a:hover{
+  color: var(--red);
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar-items {
+  display: flex;
+  gap: 1em;
+  font-size: 18px; 
+}
+
+.navbar-items li {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+
+
+input[type=checkbox]{
+  display: none;
+ } 
+
+ .hamburger {
+  display: none;
+  font-size: 30px;
+  user-select: none;
+ }
+ 
+
+@media (max-width: 800px) {
+  .navbar-items { 
+    display:none;
+    position: absolute;
+    background-color: var(--red);
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 20px;
+    z-index: +1;
+  }
+
+
+  .nav-links a {
+    padding: 0.6rem;
+    transition: all 0.2s;
+  }
+
+  .nav-links a:hover{
+    color: var(--red);
+    background-color: white;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    z-index: +1;
+  }
+ 
+
+ input[type=checkbox]:checked ~ .navbar-items{
+  display: block;
+  
+ }
+
+ .hamburger {
+  display: block;
+  color: white;
+ }
+
+}

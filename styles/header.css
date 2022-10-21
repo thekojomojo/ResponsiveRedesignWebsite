@@ -1,0 +1,55 @@
+.header-container {
+  text-align: center;
+  position: relative;
+}
+
+.header-container img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  filter:saturate(90%);
+}
+
+.text-block {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.best-bagels-text {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.hours-text {
+  color:white;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
+@media (max-width: 675px) {
+  .best-bagels-text {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .hours-text {
+    font-size: 25px;
+  }
+
+  .button {
+    padding: 0.8rem;
+  }
+}
+
