@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Responsive Redesign</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="submissionstyles.css">
+
+  </head>
+
+  <body>
+    <h1 class="title">Responsive Redesign Project</h1>
+    <div class="section-header">Introduction</div>
+    <div class="content">
+      <p>
+        This project was done as a part of CSCI1300 at Brown University. 
+      </p>
+      <p>
+        The project in question was to redesign a simple website page using HTML and CSS of any 
+        website in which improvements could be made. I chose the website for one of my favorite 
+        places to spend excessive money on Thayer, <a href="http://bagelgourmetcafe.com/" target="_blank">Bagel Gourmet. </a> 
+      </p>
+    </div>
+    <div class="section-header">Current Website</div>
+    <div class="the-original">
+      <p>Here is a screenshot of the current website...</p>
+      <img class="original" src="screenshots/original website screenshot.png">
+    </div>
+
+    <div class="section-header">Problems</div>
+    <div class="problems">
+      <div class="problem">
+        <p class="problem-label">Efficiency</p>
+        <ul>
+          <li>Efficiency is good once the interface is learned, every link is right there </li>
+          <li>Generally one click away for each item, however not intuitive placement.</li>
+        </ul>
+      </div>
+
+      <div class="problem">
+        <p class="problem-label">Memorability</p>
+        <ul>
+          <li>The interface is not easy to learn, the section alignments are confusing</li>
+          <li>Users may remember how to use the website but for the wrong reasons</li>
+        </ul>
+      </div>
+
+      <div class="accessibility">
+        <p class="problem-label">Accessibility</p>
+        <p class="problem-description"> 
+          When I put <a href="http://bagelgourmetcafe.com/" target="_blank">bagelgourmetcafe.com </a> 
+          into Waive, a variety of glaring accessiblity issues come up. To highlight a few:
+          </p>
+        <ul>
+          <li>
+            <span class="bullet-points">Low Contrast</span> - Much of the text and backgrounds had very similar colors,
+            making it hard to discern text from images
+          </li>
+          <li>
+            <span class="bullet-points">Not Dynamic</span> - the website cannot be resized to fit different 
+            devices, crucially mobile
+          </li>
+          <li>
+            <span class="bullet-points">Inconsistent Text Size</span> - the lack of a font table or any flow for
+            headers and text makes it clunky and hard to figure out what is 
+            important on the page
+          </li>
+        </ul>
+      </div>
+
+      
+      
+    </div>
+    <div class="section-header">Low-Fi Wireframing</div>
+    <div class="low-fi-container">
+      <div class="p-container">
+        <p class="figma-description">
+          Here are the lo-fi wireframes that were put together in Balsalmiq, in a series of 
+          screenshots for each type of wireframe. Annotations for which design issues were 
+          addressed are in text boxes with arrows pointing on the wireframes.
+        </p>
+      </div>
+      <div class="label-embed">
+        <p class="wireframe-label">Laptop</p>
+        <img class="wireframe-photo" src="screenshots/Laptop Wireframe.png" >
+      </div>
+      <div class="label-embed">
+        <p class="wireframe-label">Mobile</p>
+        <img class="wireframe-photo" src="screenshots/Mobile.png">
+      </div>
+      <div class="label-embed">
+        <p class="wireframe-label">Tablet</p>
+        <img class="wireframe-photo" src="screenshots/Tablet Wireframe.png">
+      </div>
+    </div>
+
+
+
+    <div class="section-header">Style Guide</div>
+    <div class="style-guide">
+      <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fy5o5VvuWRIBnwFp2RGITdI%2FResponsive-Redesign%3Fnode-id%3D30%253A306" allowfullscreen></iframe>
+    </div>
+    <div class="section-header">High-Fi Prototyping</div>
+    <div class="high-fi-content">
+      <div class="p-container">
+        <p class="figma-description">
+          Here are the hi-fi prototypes that were put together in Figma, embedded into the code. 
+          All annotations are in the rectangular boxes to the left or right of the prototypes themselves,
+          within the embedded Figma.
+        </p>
+      </div>
+      <div class="label-embed">
+        <p class="wireframe-label">Laptop</p>
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fy5o5VvuWRIBnwFp2RGITdI%2FResponsive-Redesign%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+      </div>
+      <div class="label-embed">
+        <p class="wireframe-label">Mobile</p>
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fy5o5VvuWRIBnwFp2RGITdI%2FResponsive-Redesign%3Fnode-id%3D28%253A217" allowfullscreen></iframe>
+      </div>
+      <div class="label-embed">
+        <p class="wireframe-label">Tablet</p>
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fy5o5VvuWRIBnwFp2RGITdI%2FResponsive-Redesign%3Fnode-id%3D27%253A177" allowfullscreen></iframe>
+      </div>
+
+    </div>
+    <div class="section-header">Redesigned Website</div>
+    <div class="content">
+      
+    </div>
+    <div class="section-header">Links and Citations</div>
+    <div class="links">
+      <p>Photo Links</p>
+      <ul>
+        <li><a href="https://www.instagram.com/p/COaonsxFWo5/?igshid=YmMyMTA2M2Y=">
+          Breakfast sandwich</a>
+        </li>
+        <li><a href="https://images6.alphacoders.com/817/817113.jpg">Bagel Background</a> </li>
+        <li><a href="https://handletheheat.com/wp-content/uploads/2016/08/how-to-make-bagels-recipe-SQUARE-768x768.jpg">Bagels</a> </li>
+        <li><a href="https://www.vindulge.com/wp-content/uploads/2020/05/Steak-and-Egg-Breakfast-Burrito-on-the-Grill.jpg">Breakfast Burrito</a> </li>
+      </ul>
+
+      <p>Resources and References for code</p>
+      <p><a href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/">Responsive Navigation Bar</a></p>
+      <p><a href="https://www.w3schools.com/howto/howto_css_image_text_blocks.asp">Text Overlay Over Image</a></p>
+    </div>
+    
+
+
+
+  </body>
+</html>
